@@ -3,3 +3,6 @@ target/
 dbt_packages/
 logs/
 models/source.yml
+.gitgnore
+profiles.yml
+.user.yml

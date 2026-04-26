@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: sources
+    database: Sales
+    schema: dbt   # ajuste para o schema real das tabelas
+    tables:
+      - name: customers
+      - name: orders
+      - name: products
+      - name : categories
+      - name : employees
+      - name : oder_details
+      - name : shippers
+      - name : suppliers

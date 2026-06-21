@@ -2,10 +2,20 @@ name: 'sales_dbt'
 version: '1.0.0'
 config-version: 2
 
+vars : 
+  category : Seafood
+
 profile: 'sales_dbt'
 
 model-paths: ["models"]
 
+macro-paths: ['sales_dbt/macros']
+
+test-paths : ["sales_dbt/tests"]
+
+seed-paths : ['seeds']
+
 models:
   sales_dbt:
     +materialized: view
+ 

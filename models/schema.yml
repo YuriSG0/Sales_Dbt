@@ -1,0 +1,8 @@
+version : 2
+
+models : 
+  - name: customer
+    description: "Table customers"
+    config:
+      post-hook:
+        - "GRANT SELECT ON {{this}} to user-dummy"
